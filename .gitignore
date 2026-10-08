@@ -1,0 +1,5 @@
+*.avi
+figuras/
+figuras_pinza/
+.ipynb_checkpoints/
+__pycache__/
