@@ -18,14 +18,14 @@ partículas se obtienen de videos del microscopio con `trackpy`.
 
 ### 01 — Movimiento browniano
 
-Con el láser apagado, las microesferas se mueven libremente. El notebook limpia cada
-frame (canal verde, resta del fondo y filtro pasa-banda), detecta y sigue las
-partículas y calcula el desplazamiento cuadrático medio de cada trayectoria. El ajuste
+Con el láser apagado, las microesferas se mueven libremente. El notebook prepara cada
+frame mediante una serie de pasos, detecta las
+partículas, trackea su movimiento y con ello calcula el desplazamiento cuadrático medio de cada trayectoria. El ajuste
 $\mathrm{MSD}(\tau) = 4\sigma^2 + 4D\tau + (v\tau)^2$ separa la difusión del error de
-localización $\sigma$ y de la deriva $v$. Promediando las trayectorias que pasan los
+localización $\sigma$ y de la deriva $v$. Promediando las trayectorias que pasan cierto
 criterios de calidad se obtiene $D$ y, con la relación de Stokes–Einstein, la
 viscosidad del medio. También incluye un análisis de sensibilidad a los parámetros de
-seguimiento y una medición del tamaño aparente de las partículas.
+seguimiento.
 
 ### 02 — Calibración por equipartición
 
