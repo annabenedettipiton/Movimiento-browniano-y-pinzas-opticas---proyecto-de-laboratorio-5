@@ -14,7 +14,7 @@ partículas se obtienen de videos del microscopio con `trackpy`.
 | Notebook | Qué hace | Resultado principal |
 |---|---|---|
 | [`01_movimiento_browniano.ipynb`](notebooks/01_movimiento_browniano.ipynb) | Sigue partículas libres, calcula el MSD y obtiene el coeficiente de difusión y la viscosidad del medio. | $D = (0{,}057 \pm 0{,}007)\ \mu\mathrm{m^2/s}$, $\eta = (2{,}4 \pm 0{,}3)$ mPa s |
-| [`02_equiparticion.ipynb`](notebooks/02_equiparticion.ipynb) | Sigue una partícula atrapada y obtiene la rigidez de la trampa por equipartición. | $k_x = (4{,}0 \pm 0{,}3)$ pN/µm, $k_y = (2{,}33 \pm 0{,}15)$ pN/µm |
+| [`02_equiparticion.ipynb`](notebooks/02_equiparticion.ipynb) | Sigue una partícula atrapada y obtiene la rigidez de la trampa por equipartición. | $k_x = (4{,}0 \pm 0{,}3)$ pN/µm, $k_y = (2{,}3 \pm 0{,}2)$ pN/µm |
 
 ### 01 — Movimiento browniano
 
